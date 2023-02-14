@@ -1,0 +1,50 @@
+.card{
+    background-color: purple !important;
+    width: 500px;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.inputStyling{
+    border-radius: 50px !important;
+    border: 2px solid white !important;
+}
+
+.inputStyling:focus{
+    border: 5px solid pink !important;
+}
+
+.pad{
+    padding-bottom: 10px;
+}
+
+.heading{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.buttonPosition{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.btnStyle{
+    background-color: violet !important;
+    border: 2px solid purple !important;
+}
+
+.btnStyle:hover{
+    filter:grayscale(30%)
+}
+
+.btnStyle:disabled{
+    filter:grayscale(50%)
+}
