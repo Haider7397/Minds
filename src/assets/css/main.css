@@ -1,0 +1,13 @@
+.main{
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.celebration{
+    background-image: url("../images/giphy2.gif");
+    background-size: cover;
+    background-position: center;
+} 

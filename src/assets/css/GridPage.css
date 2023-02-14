@@ -1,0 +1,44 @@
+.col-3{
+    width: 20% !important;
+    border: 2px solid white;
+}
+
+.columnStyling{
+    cursor: pointer;
+}
+.columnStyling:hover{
+    background:#915177;
+}
+
+.bordering{
+    border: 2px dashed white;
+}
+
+.textStyling{
+    font-size: 1.5vw;
+}
+
+.textAlignment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:576px){
+    .textStyling{
+        font-size: 2vw;
+    }
+}
+
+.playerone{
+    text-decoration: line-through;
+    filter: blur(1px);;
+    background-color: violet;
+}
+
+.playertwo{
+    text-decoration: line-through;
+    filter: blur(1px);
+    background-color: indigo;
+}
+  
