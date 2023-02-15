@@ -1,10 +1,12 @@
 
-import { useState } from "react"
-import "../assets/css/InfoPage.css"
+import { useState } from "react";
+import "../assets/css/InfoPage.css";
+import { useNavigate } from 'react-router-dom';
 
 export default function InfoPage() {
 
-    const [formVal, setFormVal]= useState({playerOne:"", playerTwo:""}) 
+    const [formVal, setFormVal]= useState({playerOne:"", playerTwo:""})
+    const navigate = useNavigate(); 
 
     const handleChange = event => {
         const {name, value} = event.target;
@@ -12,12 +14,27 @@ export default function InfoPage() {
     }
 
     const save = () => {
-        console.log(formVal)
+        localStorage.setItem("players",JSON.stringify(formVal))
+        navigate("/main");
     }
 
     return (
         <div className="container">
             <div className="main">
+            <div className="row">
+                <div className="box">
+                    <h1><span>B</span>
+                        <span>I</span>
+                        <span>N</span>
+                        <span>G</span>
+                        <span>O</span>
+                        <span> </span>
+                        <span>A</span>
+                        <span>P</span>
+                        <span>P</span>
+                    </h1>
+                </div>
+            </div>
                 <div className="row">
                     <div className="col-12 mx-auto">
                         <div className="card">

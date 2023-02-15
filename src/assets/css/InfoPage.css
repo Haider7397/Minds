@@ -9,6 +9,7 @@
     align-content: center;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .inputStyling{

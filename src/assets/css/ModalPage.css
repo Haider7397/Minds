@@ -1,0 +1,18 @@
+.backside{
+    background-color: #e61c94; 
+    color: white;
+    border-radius: 7px;
+}
+
+.buttonColor{
+    background: purple !important;
+    border: 2px solid purple !important;
+}
+
+.buttonColor:hover{
+    filter: grayscale(30%) !important;
+}
+
+.remover{
+    border: none !important;
+}
