@@ -1,9 +1,10 @@
-.main{
+.mainer{
     height: 100vh;
     display: flex;
     align-content: center;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    flex-direction: column;
 }
 
 .celebration{
@@ -11,3 +12,10 @@
     background-size: cover;
     background-position: center;
 } 
+
+
+@media(max-width:576px){
+    .pad{
+        padding-top: 10px;
+    }
+}

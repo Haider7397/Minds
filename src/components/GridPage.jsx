@@ -106,20 +106,6 @@ export default function GridPage({ winstatus }) {
 
     return (
         <div className="container">
-            <div className="row">
-                <div className="box">
-                    <h1><span>B</span>
-                        <span>I</span>
-                        <span>N</span>
-                        <span>G</span>
-                        <span>O</span>
-                        <span> </span>
-                        <span>A</span>
-                        <span>P</span>
-                        <span>P</span>
-                    </h1>
-                </div>
-            </div>
             <div className="row bordering">
                 {
                     info.map((item, index) =>
