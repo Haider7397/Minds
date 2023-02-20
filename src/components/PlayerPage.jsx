@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "../assets/css/PlayerPage.css"
 
 export default function PlayerPage({name, playerNumber,color}){
